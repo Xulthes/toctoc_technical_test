@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_test_toctoc",
+  "version": "1.0.0",
+  "description": "NodeJS test for TocToc.com, include NodeJS Express.js App with SQLite 3, Sequelize.js, EventEmitter, OS lib and getmac as uuid",
+  "author": "Enrique Esteban <enrique@micorreo.pro>",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "start": "node ./server.js",
+    "sequelize": "node_modules/.bin/sequelize"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "events": "^3.3.0",
+    "express": "^4.17.1",
+    "getmac": "^5.17.0",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.7",
+    "os": "^0.1.1",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.2"
+  }
+}

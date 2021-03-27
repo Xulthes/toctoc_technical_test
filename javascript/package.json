@@ -1,0 +1,12 @@
+{
+  "name": "javascript_test_toctoc",
+  "description": "Javascript test for TocToc.com, include Search and Sort Numbers",
+  "version": "1.0.0",
+  "author": "Enrique Esteban <enrique@micorreo.pro>",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "run:sort": "node ./sort-numbers.js",
+    "run:search": "node ./search-number.js"
+  }
+}

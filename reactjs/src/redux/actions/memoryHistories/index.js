@@ -1,0 +1,9 @@
+//Get All HOST
+export const GET_MEMORY_HISTORIES_REQUESTED = "GET_MEMORY_HISTORIES_REQUESTED";
+export const GET_MEMORY_HISTORIES_SUCCESS = "GET_MEMORY_HISTORIES_SUCCESS";
+export const GET_MEMORY_HISTORIES_FAILED = "GET_MEMORY_HISTORIES_FAILED";
+
+export const getMemoryHistories = (payload) => ({
+  type: GET_MEMORY_HISTORIES_REQUESTED,
+  payload: payload,
+});
